@@ -19,6 +19,8 @@ jobs:
         run: npm --version
       - name: Navigate to server application
         run: cd tricklink
+      - name: Print current directory and list files
+        run: ls
       #- name: Build server application
       #  run: dotnet build .\TrickLink.Api.csproj
         #run: dotnet build -c Release -f net5.0 -r linux-x64
