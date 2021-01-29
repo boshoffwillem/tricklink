@@ -22,8 +22,10 @@ jobs:
       - name: Navigate to server application
         run: cd tricklink/TrickLink.Api/ && ls && pwd
       - name: Build server application
-        run: dotnet build -c Release -f net5.0 -r linux-x64
+        run: dotnet build
+        #run: dotnet build -c Release -f net5.0 -r linux-x64
       - name: Navigate to binaries
-        run: cd bin/Release/net5.0/
+        run: cd bin/Debug/net5.0/
+        #run: cd bin/Release/net5.0/
       - name: List binaries
         run: ls
