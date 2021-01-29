@@ -20,9 +20,7 @@ jobs:
       - name: npm version
         run: npm --version
       - name: Navigate to server application
-        run: cd tricklink/TrickLink.Api/ && ls
-      - name: Clean server application
-        run: dotnet clean
+        run: cd tricklink/TrickLink.Api/ && ls && pwd
       - name: Build server application
         run: dotnet build -c Release -f net5.0 -r linux-x64
       - name: Navigate to binaries
