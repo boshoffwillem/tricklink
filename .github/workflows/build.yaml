@@ -20,7 +20,7 @@ jobs:
       - name: npm version
         run: npm --version
       - name: Navigate to server application
-        run: cd tricklink/TrickLink.Api/
+        run: cd tricklink/TrickLink.Api/ && ls
       - name: Clean server application
         run: dotnet clean
       - name: Build server application
