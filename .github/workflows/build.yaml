@@ -20,7 +20,7 @@ jobs:
       - name: Navigate to server application
         run: cd ./tricklink/TrickLink.Api
       - name: Print current directory and list files
-        run: ls -R
+        run: pwd && ls
       #- name: Build server application
       #  run: dotnet build .\TrickLink.Api.csproj
         #run: dotnet build -c Release -f net5.0 -r linux-x64
