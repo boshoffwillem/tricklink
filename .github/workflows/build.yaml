@@ -9,10 +9,8 @@ jobs:
     steps:
       - name: Pull our code
         uses: actions/checkout@v2
-      - name: Print current directory
-        run: pwd
-      - name: List files in directory
-        run: ls
+      - name: Print current directory and list files
+        run: pwd && ls
       - name: dotnet version
         run: dotnet --version
       - name: node version
@@ -22,10 +20,8 @@ jobs:
       - name: Navigate to server application
         run: cd tricklink/TrickLink.Api/ && ls && pwd
       - name: Build server application
-        run: dotnet build
+        run: dotnet build .\TrickLink.Api.csproj
         #run: dotnet build -c Release -f net5.0 -r linux-x64
       - name: Navigate to binaries
-        run: cd bin/Debug/net5.0/
+        run: cd bin/Debug/net5.0/ && ls
         #run: cd bin/Release/net5.0/
-      - name: List binaries
-        run: ls
