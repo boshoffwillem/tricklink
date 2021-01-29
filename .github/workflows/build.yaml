@@ -13,3 +13,7 @@ jobs:
         run: ls
       - name: dotnet version
         run: dotnet --version
+      - name: node version
+        run: node --version
+      - name: npm version
+        run: npm --version
