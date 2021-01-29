@@ -4,6 +4,7 @@ Tutorial by RawCoding: [https://www.youtube.com/playlist?list=PLOeFnOV9YBa4LslgN
 
 ## Tech stack
  - ASP.NET Core
+ - GitHub actions [https://docs.github.com/en/actions]
  - ImageSharp: image processing
  - Xabe.FFmpeg: video processing
  - MediatR
