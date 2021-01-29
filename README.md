@@ -7,7 +7,7 @@ Tutorial by RawCoding: [https://www.youtube.com/playlist?list=PLOeFnOV9YBa4LslgN
  - ImageSharp: image processing
  - Xabe.FFmpeg: video processing
  - MediatR
- - Nuxt.js
+ - Nuxt.js [https://nuxtjs.org/]
  - Entity Framework Core
  - PostgreSQL
  - S3: file storage
