@@ -18,7 +18,7 @@ jobs:
       - name: npm version
         run: npm --version
       - name: Navigate to server application
-        run: cd ./tricklink/TrickLink.Api
+        run: cd TrickLink.Api
       - name: Print current directory and list files
         run: pwd && ls
       - name: Build server application
