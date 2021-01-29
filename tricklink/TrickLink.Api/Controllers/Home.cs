@@ -1,7 +1,15 @@
-﻿namespace TrickLink.Api.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace TrickLink.Api.Controllers
 {
-    public class Home
+    [ApiController]
+    [Route("api/home")]
+    public class Home : ControllerBase
     {
-        
+        [HttpGet]
+        public string Index()
+        {
+            return "Hello world.";
+        }
     }
 }
