@@ -18,10 +18,10 @@ jobs:
       - name: npm version
         run: npm --version
       - name: Navigate to server application
-        run: cd tricklink/TrickLink.Api/ && ls && pwd
-      - name: Build server application
-        run: dotnet build .\TrickLink.Api.csproj
+        run: cd tricklink
+      #- name: Build server application
+      #  run: dotnet build .\TrickLink.Api.csproj
         #run: dotnet build -c Release -f net5.0 -r linux-x64
-      - name: Navigate to binaries
-        run: cd bin/Debug/net5.0/ && ls
+      #- name: Navigate to binaries
+      #  run: cd bin/Debug/net5.0/ && ls
         #run: cd bin/Release/net5.0/
