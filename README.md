@@ -14,3 +14,9 @@ Tutorial by RawCoding: [https://www.youtube.com/playlist?list=PLOeFnOV9YBa4LslgN
  - S3: file storage
  - Linode: cloud hosting
  - NGINX
+
+## Extra reading
+- [https://restfulapi.net/rest-api-design-tutorial-with-example/]
+- [https://nuxtjs.org/blog/understanding-how-fetch-works-in-nuxt-2-12]
+- [https://nuxtjs.org/docs/2.x/directory-structure/store#the-fetch-method]
+- [https://nuxtjs.org/docs/2.x/features/data-fetching#async-data]
