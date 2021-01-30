@@ -9,6 +9,7 @@ namespace TrickLink.Api.Controllers
         [HttpGet]
         public string Index()
         {
+            IActionResult res = Ok("ghfjhgfj");
             return "Hello world.";
         }
     }
