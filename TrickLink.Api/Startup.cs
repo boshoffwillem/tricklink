@@ -15,6 +15,8 @@ namespace TrickLink.Api
         {
             services.AddControllers();
 
+            services.AddSingleton<TrickyStore>();
+            
             services.AddCors(options => options.AddPolicy(allCors,
                 build => build.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod()));
         }
